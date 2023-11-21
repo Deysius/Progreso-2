@@ -14,4 +14,10 @@ int main(){
         }
           printf("\n");
     }
+      printf("Matriz diagonal principal:\n");
+    for (int i = 0; i < filas; i++) {
+        for (int j = 0; j < columnas; j++) {
+        }
+    }
+    return 0;
 }
