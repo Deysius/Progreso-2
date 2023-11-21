@@ -14,10 +14,25 @@ int main(){
         }
           printf("\n");
     }
-      printf("Matriz diagonal principal:\n");
+    if (filas==columnas)
+    {
+    printf("Matriz diagonal principal:\n");
     for (int i = 0; i < filas; i++) {
         for (int j = 0; j < columnas; j++) {
+            if (i==j)
+            {
+                printf("%d",1);
+            }
+            else{
+                printf("%d",0);
+
+            }
         }
+          printf("\n");
+    }
+    }
+    else{
+    printf ("No existe la diagonal principal en matrices que no sean cuadradas\n");
     }
     return 0;
 }
